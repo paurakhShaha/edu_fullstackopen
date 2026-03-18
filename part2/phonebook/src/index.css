@@ -1,0 +1,29 @@
+.error{ 
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    animation-name: myAnimation;
+    animation-duration: 6s;
+}
+.non-error{
+    color: rgb(6, 228, 6);
+    background: rgb(151, 221, 157);
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    animation-name: myAnimation;
+    animation-duration: 6s;
+}
+
+@keyframes myAnimation {
+  from {opacity: 100%;}
+  to {opacity: 0;}
+}
